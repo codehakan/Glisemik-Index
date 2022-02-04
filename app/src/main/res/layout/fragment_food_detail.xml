@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/inc_toolbar_food_detail"
+        layout="@layout/toolbar_food_detail" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_6sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Kategori"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/foodDetail_lbl_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="Sebze Meyve"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Besin"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/foodDetail_lbl_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="Kayısı"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Glisemik İndeks"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/foodDetail_lbl_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="58"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/foodDetail_progress_index"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="23"
+                app:indicatorColor="@color/index_medium"
+                app:trackColor="@color/progressbar_track" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Karbonhidrat (100gr için)"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/foodDetail_lbl_carbonHydrateIn100Gram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="50"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/foodDetail_progress_carbonHydrateIn100Gram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="23"
+                app:indicatorColor="@color/index_medium"
+                app:trackColor="@color/progressbar_track" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Kalori (100gr için)"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/foodDetail_lbl_calorieIn100Gram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="50"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/foodDetail_progress_calorieIn100Gram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="23"
+                app:indicatorColor="@color/index_medium"
+                app:trackColor="@color/progressbar_track" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

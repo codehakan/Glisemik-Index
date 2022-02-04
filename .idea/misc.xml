@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/ic_add.xml" value="0.353125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/ic_back.xml" value="0.353125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/ic_category.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/ic_close.xml" value="0.353125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/ic_edit.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/ic_food.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/ic_search.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/drawable/shape_shadow_bottom.xml" value="0.353125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/activity_food_add.xml" value="0.3328125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/activity_splash.xml" value="0.3328125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/dialog_category_add.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/dialog_food_edit.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/dialog_information.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/fragment_categories.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/fragment_food_add.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/fragment_food_detail.xml" value="0.67" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/fragment_splash.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/single_category.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/single_food.xml" value="0.7342398022249691" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/toolbar_categories.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/toolbar_food_add.xml" value="0.3328125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/toolbar_food_detail.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/toolbar_line.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/layout/toolbar_main.xml" value="0.33" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/GlisemikIndeks/app/src/main/res/xml/network_security_config.xml" value="0.1265625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

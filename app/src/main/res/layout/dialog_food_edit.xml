@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Kategori"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <Spinner
+                android:id="@+id/foodEdit_spin_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Besin"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/foodEdit_txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:inputType="text"
+                android:text="Kayısı"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Glisemik İndeks"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/foodEdit_txt_index"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:inputType="number"
+                android:text="58"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Karbonhidrat (100gr için)"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/foodEdit_txt_carbonHydrateIn100Gram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:inputType="number"
+                android:text="50"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/bold"
+                android:text="Kalori (100gr için)"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_18sdp" />
+
+            <EditText
+                android:id="@+id/foodEdit_txt_calorieIn100Gram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:inputType="number"
+                android:text="50"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/_12sdp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <Button
+                android:id="@+id/foodEdit_btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:backgroundTint="@color/blue"
+                android:fontFamily="@font/bold"
+                android:letterSpacing="0"
+                android:text="Kaydet" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

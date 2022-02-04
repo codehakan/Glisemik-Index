@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/inc_toolbar_main"
+        layout="@layout/toolbar_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_column_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/column_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inc_toolbar_main">
+
+        <TextView
+            android:id="@+id/main_column_lbl_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            android:text="G.Indeks"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/main_column_lbl_index"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/main_column_lbl_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            android:text="Besin"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/main_column_lbl_index"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/main_recyclerView_lbl_empty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16sdp"
+        android:fontFamily="@font/medium"
+        android:gravity="center"
+        android:text="Bu kategoriye ait besin listesi mevcut değildir."
+        android:textAlignment="gravity"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_column_container"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recyclerView_food"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_column_container" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/main_fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_6sdp"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu_colorNormal="@color/blue"
+        app:menu_colorPressed="@color/blue"
+        app:menu_openDirection="up"
+        app:useCompatPadding="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_fab_menu_foodAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_food"
+            app:fabSize="mini"
+            app:fab_colorNormal="@color/index_low"
+            app:fab_colorPressed="@color/index_low"
+            app:fab_label="Besin Ekle"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_fab_menu_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_category"
+            app:fabSize="mini"
+            app:fab_colorNormal="@color/index_low"
+            app:fab_colorPressed="@color/index_low"
+            app:fab_label="Kategoriler"
+            app:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

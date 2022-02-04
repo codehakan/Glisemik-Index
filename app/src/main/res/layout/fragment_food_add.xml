@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/inc_toolbar_food_add"
+        layout="@layout/toolbar_food_add" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_6sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/foodAdd_txt_nameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Besin Adı"
+                app:boxStrokeColor="@color/blue"
+                app:hintTextColor="@color/gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/foodAdd_txt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/foodAdd_txt_indexLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="İndeks"
+                app:boxStrokeColor="@color/blue"
+                app:hintTextColor="@color/gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/foodAdd_txt_index"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/foodAdd_txt_carbonHydrateIn100GramLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Karbonhidrat (100gr için)"
+                app:boxStrokeColor="@color/blue"
+                app:hintTextColor="@color/gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/foodAdd_txt_carbonHydrateIn100Gram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/foodAdd_txt_calorieIn100GramLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kalori (100gr için)"
+                app:boxStrokeColor="@color/blue"
+                app:hintTextColor="@color/gray">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/foodAdd_txt_calorieIn100Gram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/foodAdd_spin_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/gray" />
+
+            <Button
+                android:id="@+id/foodAdd_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:backgroundTint="@color/blue"
+                android:fontFamily="@font/bold"
+                android:letterSpacing="0"
+                android:text="Ekle" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

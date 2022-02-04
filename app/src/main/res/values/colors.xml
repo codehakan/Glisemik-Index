@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="black_light">#BF000000</color>
+
+    <color name="blue">#6C92F4</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="gray">#5F5F5F</color>
+
+    <color name="index_low">#72DFC5</color>
+    <color name="index_medium">#D4B759</color>
+    <color name="index_high">#EB5757</color>
+
+    <color name="progressbar_loading">#40AED581</color>
+    <color name="progressbar_track">#1A000000</color>
+
+    <color name="column_background">#828282</color>
+
+    <color name="overlay">#BF000000</color>
+</resources>
