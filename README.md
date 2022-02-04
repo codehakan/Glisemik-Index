@@ -1,7 +1,17 @@
 
-## Glisemik İndeks Nedir?
+## Glisemik İndeks
 
 Glisemik indeks, karbohidrat içeren besinlerin kan şekerini etkileme hızlarına göre sınıflandırılmalarını sağlar. Besinlere 0 ve 100 arasında değerler verilir.
+
+## Kullanılan Eklentiler ve Yapılar
+
+![](https://img.shields.io/badge/minSdk-24-green)
+![](https://img.shields.io/badge/sqlite-10.10.0-orange)
+![](https://img.shields.io/badge/jsoup-1.14.3-blue)
+![](https://img.shields.io/badge/hilt-2.38.1-yellowgreen)
+![](https://img.shields.io/badge/lottie-4.2.1-lightgrey)
+![](https://img.shields.io/badge/balloon-1.4.0-red)
+![](https://img.shields.io/badge/sdp-1.0.6-brightgreen)
 
 ## Görseller
 
