@@ -1,8 +1,4 @@
 
-## Glisemik İndeks
-
-Glisemik indeks, karbohidrat içeren besinlerin kan şekerini etkileme hızlarına göre sınıflandırılmalarını sağlar. Besinlere 0 ve 100 arasında değerler verilir.
-
 ## Kullanılan Eklentiler ve Yapılar
 
 ![](https://img.shields.io/badge/minSdk-24-green)
@@ -12,6 +8,23 @@ Glisemik indeks, karbohidrat içeren besinlerin kan şekerini etkileme hızları
 ![](https://img.shields.io/badge/lottie-4.2.1-lightgrey)
 ![](https://img.shields.io/badge/balloon-1.4.0-red)
 ![](https://img.shields.io/badge/sdp-1.0.6-brightgreen)
+
+## Glisemik İndeks
+
+Glisemik indeks, karbohidrat içeren besinlerin kan şekerini etkileme hızlarına göre sınıflandırılmalarını sağlar. Besinlere 0 ve 100 arasında değerler verilir.
+
+## Amaç
+
+Beslenmesine dikkat etmesi gereken bireylerin, tüketeceği gıdalar hakkında vücuduna sağlayacağı besin katkılarını göstermektir.
+
+Bu katkılar 2 çeşit olarak gösterilmiştir;
+
+- Karbonhidrat
+- Kalori
+
+Baz alınan referans değer;
+
+- Glisemik İndeks
 
 ## Görseller
 
