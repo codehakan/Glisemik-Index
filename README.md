@@ -80,3 +80,7 @@ Glisemik indeks, karbohidrat içeren besinlerin kan şekerini etkileme hızları
     <img src ="https://github.com/codehakan/Glisemik-Index/blob/main/img/16.png" width="200" style="max-width:100%">
   </a>
 </p>
+
+## Geri Bildirim
+
+Herhangi bir geri bildiriminiz varsa, contact@hakanakkaya.net adresinden ulaşabilirsiniz.
