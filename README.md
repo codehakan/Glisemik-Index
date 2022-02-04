@@ -13,6 +13,12 @@
 
 Glisemik indeks, karbohidrat içeren besinlerin kan şekerini etkileme hızlarına göre sınıflandırılmalarını sağlar. Besinlere 0 ve 100 arasında değerler verilir.
 
+## Nasıl Çalışır
+
+İnternet sitesi üzerinden paylaşılan bir tablo üzerinden, Jsoup alt yapısı kullanılarak veriler alınır. Kullanıcının telefonuna kurulan SQLite database içerisinde ilgili tablolar oluşturularak kayıt işlemi gerçekleştirilir.
+
+Veriler, sadece ilk çalıştırmada alınır. Daha sonra ki kullanımlarda SQLite database üzerinden işlemler yapılmaktadır.
+
 ## Amaç
 
 Beslenmesine dikkat etmesi gereken bireylerin, tüketeceği gıdalar hakkında vücuduna sağlayacağı besin katkılarını göstermektir.
